@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "alura-books-ds",
+  "name": "books-library",
   "author": "leo-ngra",
   "module": "dist/alura-books-ds.esm.js",
   "size-limit": [
