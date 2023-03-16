@@ -8,17 +8,15 @@ const BotaoEstilizado = styled.button`
     color: #FFF;
     font-size: 20px;
     cursor: pointer;
-
     &:hover {
         background: #B87900;
         border: 2px solid #B87900;
     }
 `
 
+
 export const AbBotao = () => {
-    return (
-        <BotaoEstilizado>
-            Clique Aqui!
-        </BotaoEstilizado>
-    )
+    return (<BotaoEstilizado>
+        Clique aqui!
+    </BotaoEstilizado>)
 }
