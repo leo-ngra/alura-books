@@ -55,7 +55,7 @@ export const AbGrupoOpcoes = ( { opcoes, onChange, valorPadrao }: AbGrupoOpcoesP
     const aoSelecionar = (opcao: AbGrupoOpcoes): void => {
         setSelecao(opcao);
         if(onChange) {
-            onChange(opcao);
+            onChange(opcao)
         }
     }
 
